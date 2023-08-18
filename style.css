@@ -1,0 +1,430 @@
+@font-face {
+    font-family: 'zender';
+    src: url(./Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf);
+}
+
+body{
+ margin: 0%;
+ padding: 0%;
+ font-size: medium;  
+ background-color: rgba(0, 0, 255, 0.954);
+ color: white;
+}
+/* container */
+.container{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(2, 2, 221);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    border-bottom: 1PX solid rgb(143, 136, 136);
+    z-index:1;
+}
+.option{
+    display: flex;
+    align-items: center;
+
+}
+li{
+    margin-left: 10px;
+    display:inline-block;   
+}
+.box{
+    position: relative;
+    left: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.see{
+    width: 230px;
+    height: 40px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 30px ;
+    background: none;
+    cursor: pointer;
+    font-weight:800;
+}
+/* container end */
+/* slider  */
+.sledir-hed{
+    width: 100%;
+    background-image: url('./pepsi/background.2.png');
+    background-size:200%;
+    background-position:bottom;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.row{ 
+    height: 800px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.sledir-text{
+    width:47%;
+    height: auto;
+     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top:7%;
+    left: -50px;
+}
+.sledir-text img {
+    width: 70%;
+}
+
+.texter{
+    width: 50%;
+    margin-top: 8.88%;
+}
+.better{
+width: 50%;
+height: 100%;
+display:flex;
+justify-content:flex-start;
+align-items: flex-end;
+position:relative;
+top: 2%;
+left:-10%;
+}
+
+.betn{
+    width: 170px;
+    height: 40px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 30px ;
+    background: none;
+    cursor: pointer;
+    margin-top:10%;
+    font-weight:800;
+     
+}
+
+/* SECN.CONTNR  */
+.seccontainer{
+    height: 720px;
+    background-color: black;
+    overflow: hidden;
+}
+.teste{
+    position: relative;
+    top:-10%;
+     left:-90px;
+    height:800px;
+    background-image:url('./pepsi/pzs-can-nobug-desktop\ pag2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.now{
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     position:relative;
+     top:150px;
+     right:30px;
+}
+.zero{  
+    display:flex;
+    flex-direction: row-reverse ;
+    
+}
+.don{
+    height:3.5%;
+    position: absolute;
+    bottom:30%;
+    right:5%;
+}
+
+/* TH.CONTN */
+.thconatiner{
+    height:700px;
+    background-image: url('./pepsi/Desktop_Background\ cnt3.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.inster{
+    width:31%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.text{
+    height:300px;
+    font-size:x-large;
+    font-weight:bolder;
+    position:absolute;
+    top:75%;
+    left:59%;
+}
+#texter{
+    position: absolute;
+    top:-10%;
+    left:25%;
+}
+.gret{
+    position: relative;
+    left:-7%;
+    top:3%;
+} 
+
+
+/*peg4*/
+
+.main{
+    height: 600px;
+    background-color: rgb(35, 35, 240);
+    margin: auto;
+    padding: 20PX;
+    position: relative;
+}
+.sicend{
+    margin-top: 10px;
+    padding: 10PX;
+    position: absolute;
+    left: 3%;
+}
+.hed{
+    margin-top: 20px;
+}
+.dfg{
+    width:100%;
+    height: 50px;
+    background-color: rgb(20, 0, 146);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -7px;
+   
+}
+.soon{
+    height:100%;
+    width:63%;
+    background-image: url(./pepsi/PEP_BWP_D\ 3.jpg);
+    background-size:auto;
+    background-position:center;
+    position:relative;
+    top:-0%;
+    left:38.33%; 
+     background-repeat: no-repeat;
+}
+.med{
+    position:absolute;
+    right: 0%;
+    bottom: 10%;
+    display: flex;
+    justify-content: right;
+    align-content:end ;
+    
+}
+
+/* saction7 */
+
+.fhcontainer{  
+    background-color: blue;      
+    height:700px; 
+}
+
+.caps{
+    position: relative;
+    TOP:0PX;
+    background: url(./pepsi/bg-2-desktop@2x\ page6w1.png) no-repeat;
+    background-position: left ;
+    background-size:100%;
+    height: 850px;
+    overflow: hidden;
+}
+
+.cain{
+    position:relative;
+    TOP:-44PX;
+    background: url(./pepsi/bg-1-desktop@2x\ page5\ 1s.png ) no-repeat;
+    background-position:right;
+    background-size:948PX;
+    height:800px;   
+} 
+
+.boold{
+    background-position: center bottom;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-image:url('./pepsi/twil-bg\ bck1x.jpg');
+    height:800px;
+}
+.betel{
+    display: flex;
+    position:relative;
+    top:-28.5%;
+    overflow: hidden;
+}
+.kool{
+    display:flex;
+    justify-content:flex-end;
+    position: relative;
+    top:200px;
+    left:-70px;
+    clear: both;
+}
+
+.sec6{
+    background: #005CB4;
+    display: flex;
+    color: white;
+    height: 80vh;
+    width: 100%;
+  }
+
+
+/*  sec6   */
+  .sec6-left{
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 100px;
+    
+    
+      }
+    
+      .sec6-left h2{
+      font-size: 50px;
+      font-weight: 200;
+      font-family: fantasy;
+      }
+
+      .sec6-left p{
+        padding-right: 100px;
+      }
+      .learn2{
+        margin-left: 0px;
+        margin-top: 30px;
+      }
+    
+      .sec6-right{
+        width: 50%;
+        display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 50px;
+    
+}
+    
+      
+.sec6-right img{
+    width: 80%;
+    object-fit: cover;
+}
+
+/* s */
+.sec7{
+     width: 100%;
+     background-color: white;
+}
+
+.sec7 h2{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 200;
+    font-family: fantasy;
+    color: #005CB4;
+}
+
+.socialsec{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 90%;
+   margin: auto;
+}
+
+.imagebox{
+    width: 20%;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+     
+}
+.imagebox img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.imagebox img:hover{
+  filter:brightness(40%);
+  transform: scale(1.2) rotate(5deg);
+  transition: 0.5s all;
+ 
+}
+
+.imagebox i{
+  color: white;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-size: 30px;
+}
+
+
+/* last */
+footer{
+    background: #005CB4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 50px;
+  }
+  
+  .logobox{
+    width: 15%;
+  }
+  .footlogo{
+    width: 100px;
+  
+  }
+  
+  .footlogo:hover{
+   transform: rotate(90deg);
+  }
+  
+  .linksbox{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .links{
+  display: flex;
+  flex-direction: column;
+  }
+  
+  
+  .links a{
+    color: white;
+    text-decoration: none;
+    margin: 5px 0px;
+    font-weight: bold;
+  }
+  
+  .socialmedia{
+    width: 25%;
+    text-align: right;
+    color: white;
+    font-size: 30px;
+  }
+  .socialmedia i{
+    margin: 0px 5px;
+  }
